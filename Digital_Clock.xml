@@ -1,0 +1,1087 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\Richi\Documents\Projekty\Digital_Clock\Digital_Clock.kicad_sch</source>
+    <date>16/12/2023 14:59:43</date>
+    <tool>Eeschema 7.0.9</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Digital Clock</title>
+        <company>Richi</company>
+        <rev/>
+        <date>2023-12-16</date>
+        <source>Digital_Clock.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="BT1">
+      <value>3V CR2032</value>
+      <footprint>Digital_Clock:BatteryHolder_ComfortableElectronic_CH273-2450_1x2450</footprint>
+      <libsource lib="Digital_Clock" part="Battery_Cell" description="Single-cell battery"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Digital_Clock.kicad_sch"/>
+      <property name="ki_description" value="Single-cell battery"/>
+      <property name="ki_keywords" value="battery cell"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aa66eb60-14e2-473e-a0fd-449198ef2eb0</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>100nF</value>
+      <footprint>Digital_Clock:C_1206_3216Metric</footprint>
+      <libsource lib="Digital_Clock" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Digital_Clock.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>85f4bda3-ca15-4f0b-9f7e-14568ecfb5d2</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>10uF</value>
+      <footprint>Digital_Clock:C_1206_3216Metric</footprint>
+      <libsource lib="Digital_Clock" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Digital_Clock.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aa7be1a8-581d-456e-9930-51d3fc7ea23a</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>100nF</value>
+      <footprint>Digital_Clock:C_1206_3216Metric</footprint>
+      <libsource lib="Digital_Clock" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Digital_Clock.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dbd93761-b06d-42f9-ae29-dabb385b899a</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>1uF</value>
+      <footprint>Digital_Clock:C_1206_3216Metric</footprint>
+      <libsource lib="Digital_Clock" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Digital_Clock.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>17d0b2c9-cc75-4e2f-a8e8-4fb3fc3b0106</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>100nF</value>
+      <footprint>Digital_Clock:C_1206_3216Metric</footprint>
+      <libsource lib="Digital_Clock" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Digital_Clock.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>74decda8-d51d-4fcc-bb2f-31505195cce9</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>100nF</value>
+      <footprint>Digital_Clock:C_1206_3216Metric</footprint>
+      <libsource lib="Digital_Clock" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Digital_Clock.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>640b3c09-4b36-4252-ae3a-371ff2795816</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>100nF</value>
+      <footprint>Digital_Clock:C_1206_3216Metric</footprint>
+      <libsource lib="Digital_Clock" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Digital_Clock.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8a0057db-956b-4e85-aa79-e2bd1dca9609</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>100uF/10V</value>
+      <footprint>Digital_Clock:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <libsource lib="Digital_Clock" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Digital_Clock.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5a3b7bb1-04e2-44dc-9cf7-3ae31d3af8c4</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>1uF</value>
+      <footprint>Digital_Clock:C_1206_3216Metric</footprint>
+      <libsource lib="Digital_Clock" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Digital_Clock.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>28aa45a1-2e5d-434c-a323-bbf7de307b69</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>100nF</value>
+      <footprint>Digital_Clock:C_1206_3216Metric</footprint>
+      <libsource lib="Digital_Clock" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Digital_Clock.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>25a818fa-5b68-4fea-84c2-b6692fcfe146</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>10uF/16V</value>
+      <footprint>Digital_Clock:CP_EIA-3216-18_Kemet-A</footprint>
+      <libsource lib="Digital_Clock" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Digital_Clock.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b487a745-b88b-4910-9560-032ad0a8212d</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>100nF</value>
+      <footprint>Digital_Clock:C_1206_3216Metric</footprint>
+      <libsource lib="Digital_Clock" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Digital_Clock.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1aa57d58-a72e-4043-a80e-1078b3c7780e</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>10uF/16V</value>
+      <footprint>Digital_Clock:CP_EIA-3216-18_Kemet-A</footprint>
+      <libsource lib="Digital_Clock" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Digital_Clock.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8a80e1c5-df03-403f-94d4-b3842ba3d252</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>100nF</value>
+      <footprint>Digital_Clock:C_1206_3216Metric</footprint>
+      <libsource lib="Digital_Clock" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Digital_Clock.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b72381de-399c-429a-8362-3e78922952d9</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>100nF</value>
+      <footprint>Digital_Clock:C_1206_3216Metric</footprint>
+      <libsource lib="Digital_Clock" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Digital_Clock.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>de3162b7-c503-430e-84b6-848bfdac7fe6</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>P4SMAJ5.0A</value>
+      <footprint>Digital_Clock:D_SMA</footprint>
+      <libsource lib="Digital_Clock" part="SMAJ5.0A" description="400W unidirectional Transient Voltage Suppressor, 5.0Vr, SMA(DO-214AC)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Digital_Clock.kicad_sch"/>
+      <property name="ki_description" value="400W unidirectional Transient Voltage Suppressor, 5.0Vr, SMA(DO-214AC)"/>
+      <property name="ki_keywords" value="unidirectional diode TVS voltage suppressor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cc51b6be-015e-4ffd-8645-0f4e0f5e3527</tstamps>
+    </comp>
+    <comp ref="F1">
+      <value>SN050-08</value>
+      <footprint>Digital_Clock:Fuse_1206_3216Metric</footprint>
+      <libsource lib="Digital_Clock" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Digital_Clock.kicad_sch"/>
+      <property name="ki_description" value="Resettable fuse, polymeric positive temperature coefficient"/>
+      <property name="ki_keywords" value="resettable fuse PTC PPTC polyfuse polyswitch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>168c6cb9-3bda-4c4e-9f80-4ca116a7aefc</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Barrel_Jack_Switch</value>
+      <footprint>Digital_Clock:BarrelJack_Horizontal</footprint>
+      <libsource lib="Digital_Clock" part="Barrel_Jack_Switch" description="DC Barrel Jack with an internal switch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Digital_Clock.kicad_sch"/>
+      <property name="ki_description" value="DC Barrel Jack with an internal switch"/>
+      <property name="ki_keywords" value="DC power barrel jack connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ca320897-ae97-42e2-bee6-608374f63b1d</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Programming Connector</value>
+      <footprint>Digital_Clock:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <libsource lib="Digital_Clock" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Digital_Clock.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bbc246a3-9164-45d8-92cd-ae05aa643f14</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>20K</value>
+      <footprint>Digital_Clock:R_1206_3216Metric</footprint>
+      <libsource lib="Digital_Clock" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Digital_Clock.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>35ab3e44-c424-4d3f-b6e6-35565e226711</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>20K</value>
+      <footprint>Digital_Clock:R_1206_3216Metric</footprint>
+      <libsource lib="Digital_Clock" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Digital_Clock.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>175ac93c-0c00-42b3-ad99-a4e5e3ab1f8a</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>10K</value>
+      <footprint>Digital_Clock:R_1206_3216Metric</footprint>
+      <libsource lib="Digital_Clock" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Digital_Clock.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ddad7982-016a-449b-8fb0-c66675ccb4fd</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>10K</value>
+      <footprint>Digital_Clock:R_1206_3216Metric</footprint>
+      <libsource lib="Digital_Clock" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Digital_Clock.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3cb8dd87-8231-4d40-b598-67ed56a17060</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>10K</value>
+      <footprint>Digital_Clock:R_1206_3216Metric</footprint>
+      <libsource lib="Digital_Clock" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Digital_Clock.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4e3adfab-5be0-432e-9b61-37ea23af4489</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>20K</value>
+      <footprint>Digital_Clock:R_1206_3216Metric</footprint>
+      <libsource lib="Digital_Clock" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Digital_Clock.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>72bfd9b9-5e1b-4d94-989b-db944e12e4da</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>3K5</value>
+      <footprint>Digital_Clock:R_1206_3216Metric</footprint>
+      <libsource lib="Digital_Clock" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Digital_Clock.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cfba5025-c2cd-409f-a70e-11b5f0a406b8</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>3K5</value>
+      <footprint>Digital_Clock:R_1206_3216Metric</footprint>
+      <libsource lib="Digital_Clock" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Digital_Clock.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>517a7d81-8c86-4f0f-a02a-8562b8b9f3ce</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>Up</value>
+      <footprint>Digital_Clock:SW_PUSH_6mm_H13mm</footprint>
+      <libsource lib="Digital_Clock" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Digital_Clock.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>56ad3da4-090b-4d28-91b1-44ba099f4e0d</tstamps>
+    </comp>
+    <comp ref="SW2">
+      <value>Down</value>
+      <footprint>Digital_Clock:SW_PUSH_6mm_H13mm</footprint>
+      <libsource lib="Digital_Clock" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Digital_Clock.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>21a94ca8-9555-4fde-a346-fda300eaa044</tstamps>
+    </comp>
+    <comp ref="SW3">
+      <value>Set</value>
+      <footprint>Digital_Clock:SW_PUSH_6mm_H13mm</footprint>
+      <libsource lib="Digital_Clock" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Digital_Clock.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dc9bc47e-dd94-4d75-a733-f1e204aed90c</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>DS3231M</value>
+      <footprint>Digital_Clock:SOIC-16W_7.5x10.3mm_P1.27mm</footprint>
+      <datasheet>http://datasheets.maximintegrated.com/en/ds/DS3231.pdf</datasheet>
+      <libsource lib="Digital_Clock" part="DS3231M" description="Extremely Accurate I2C-Integrated RTC/TCXO/Crystal SOIC-16"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Digital_Clock.kicad_sch"/>
+      <property name="ki_description" value="Extremely Accurate I2C-Integrated RTC/TCXO/Crystal SOIC-16"/>
+      <property name="ki_keywords" value="RTC TCXO Realtime Time Clock Crystal Oscillator I2C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>32ec3508-3d8b-47a0-bc06-2eabebea494c</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>STM32L010F4Px</value>
+      <footprint>Digital_Clock:TSSOP-20_4.4x6.5mm_P0.65mm</footprint>
+      <datasheet>https://www.st.com/resource/en/datasheet/stm32l010f4.pdf</datasheet>
+      <libsource lib="Digital_Clock" part="STM32L010F4Px" description="STMicroelectronics Arm Cortex-M0+ MCU, 16KB flash, 2KB RAM, 32 MHz, 1.8-3.6V, 16 GPIO, TSSOP20"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Digital_Clock.kicad_sch"/>
+      <property name="ki_description" value="STMicroelectronics Arm Cortex-M0+ MCU, 16KB flash, 2KB RAM, 32 MHz, 1.8-3.6V, 16 GPIO, TSSOP20"/>
+      <property name="ki_keywords" value="Arm Cortex-M0+ STM32L0 STM32L0x0 Value Line"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dcb0e8ab-4e88-4799-8be3-0632757c25bc</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>HT7533-1</value>
+      <footprint>Digital_Clock:SOT-89-3</footprint>
+      <datasheet>https://www.holtek.com/documents/10179/116711/HT75xx-1v250.pdf</datasheet>
+      <libsource lib="Digital_Clock" part="HT75xx-1-SOT89" description="100mA Low Dropout Voltage Regulator, Fixed Output, SOT89"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Digital_Clock.kicad_sch"/>
+      <property name="ki_description" value="100mA Low Dropout Voltage Regulator, Fixed Output, SOT89"/>
+      <property name="ki_keywords" value="100mA LDO Regulator Fixed Positive"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a1120797-ffe5-4197-883f-22e7b3bae316</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>TLC59283DBQR</value>
+      <footprint>Digital_Clock:QSOP-24_3.9x8.7mm_P0.635mm</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tlc59283.pdf</datasheet>
+      <libsource lib="Digital_Clock" part="TLC59283DBQR" description="16-channel LED driver"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Digital_Clock.kicad_sch"/>
+      <property name="ki_description" value="16-channel LED driver"/>
+      <property name="ki_keywords" value="LED driver"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7348a465-a6ed-4a51-b230-329761063ecf</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>TLC59283DBQR</value>
+      <footprint>Digital_Clock:QSOP-24_3.9x8.7mm_P0.635mm</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tlc59283.pdf</datasheet>
+      <libsource lib="Digital_Clock" part="TLC59283DBQR" description="16-channel LED driver"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Digital_Clock.kicad_sch"/>
+      <property name="ki_description" value="16-channel LED driver"/>
+      <property name="ki_keywords" value="LED driver"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4b7297c3-9b11-4799-a1fa-6f2158df1829</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>LSD150BAG-101</value>
+      <footprint>Digital_Clock:LSD150BAG-101</footprint>
+      <datasheet>https://www.tme.eu/Document/7494b3064f45c5a241c746ebacf617a6/LSD150BAG-101.pdf</datasheet>
+      <libsource lib="Digital_Clock" part="LSD150BAG-101" description="Green Single-digit Numeric Display with white white diffused lens, common anode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Digital_Clock.kicad_sch"/>
+      <property name="ki_description" value="Green Single-digit Numeric Display with white white diffused lens, common anode"/>
+      <property name="ki_keywords" value="display LED 7-segment"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e5aa8fa2-ed42-4de9-bb23-43198b19d2df</tstamps>
+    </comp>
+    <comp ref="U7">
+      <value>LSD150BAG-101</value>
+      <footprint>Digital_Clock:LSD150BAG-101</footprint>
+      <datasheet>https://www.tme.eu/Document/7494b3064f45c5a241c746ebacf617a6/LSD150BAG-101.pdf</datasheet>
+      <libsource lib="Digital_Clock" part="LSD150BAG-101" description="Green Single-digit Numeric Display with white white diffused lens, common anode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Digital_Clock.kicad_sch"/>
+      <property name="ki_description" value="Green Single-digit Numeric Display with white white diffused lens, common anode"/>
+      <property name="ki_keywords" value="display LED 7-segment"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8a2a4f97-8bfe-4553-a481-e34d16ed500b</tstamps>
+    </comp>
+    <comp ref="U8">
+      <value>LSD150BAG-101</value>
+      <footprint>Digital_Clock:LSD150BAG-101</footprint>
+      <datasheet>https://www.tme.eu/Document/7494b3064f45c5a241c746ebacf617a6/LSD150BAG-101.pdf</datasheet>
+      <libsource lib="Digital_Clock" part="LSD150BAG-101" description="Green Single-digit Numeric Display with white white diffused lens, common anode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Digital_Clock.kicad_sch"/>
+      <property name="ki_description" value="Green Single-digit Numeric Display with white white diffused lens, common anode"/>
+      <property name="ki_keywords" value="display LED 7-segment"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0f30d91b-f400-418b-8bd5-3f4bb7529f46</tstamps>
+    </comp>
+    <comp ref="U9">
+      <value>LSD150BAG-101</value>
+      <footprint>Digital_Clock:LSD150BAG-101</footprint>
+      <datasheet>https://www.tme.eu/Document/7494b3064f45c5a241c746ebacf617a6/LSD150BAG-101.pdf</datasheet>
+      <libsource lib="Digital_Clock" part="LSD150BAG-101" description="Green Single-digit Numeric Display with white white diffused lens, common anode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Digital_Clock.kicad_sch"/>
+      <property name="ki_description" value="Green Single-digit Numeric Display with white white diffused lens, common anode"/>
+      <property name="ki_keywords" value="display LED 7-segment"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d0162d0a-6353-4607-9e64-24d4fc56b66d</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Digital_Clock" part="Barrel_Jack_Switch">
+      <description>DC Barrel Jack with an internal switch</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>BarrelJack*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Barrel_Jack_Switch</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Digital_Clock" part="Battery_Cell">
+      <description>Single-cell battery</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">Battery_Cell</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Digital_Clock" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Digital_Clock" part="C_Polarized">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Digital_Clock" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Digital_Clock" part="DS3231M">
+      <description>Extremely Accurate I2C-Integrated RTC/TCXO/Crystal SOIC-16</description>
+      <docs>http://datasheets.maximintegrated.com/en/ds/DS3231.pdf</docs>
+      <footprints>
+        <fp>SOIC*7.5x10.3mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">DS3231M</field>
+        <field name="Footprint">Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm</field>
+        <field name="Datasheet">http://datasheets.maximintegrated.com/en/ds/DS3231.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="32KHZ" type="open_collector"/>
+        <pin num="2" name="VCC" type="power_in"/>
+        <pin num="3" name="~{INT}/SQW" type="open_collector"/>
+        <pin num="4" name="~{RST}" type="bidirectional"/>
+        <pin num="5" name="GND" type="passive"/>
+        <pin num="6" name="GND" type="passive"/>
+        <pin num="7" name="GND" type="passive"/>
+        <pin num="8" name="GND" type="passive"/>
+        <pin num="9" name="GND" type="passive"/>
+        <pin num="10" name="GND" type="passive"/>
+        <pin num="11" name="GND" type="passive"/>
+        <pin num="12" name="GND" type="passive"/>
+        <pin num="13" name="GND" type="power_in"/>
+        <pin num="14" name="VBAT" type="power_in"/>
+        <pin num="15" name="SDA" type="bidirectional"/>
+        <pin num="16" name="SCL" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Digital_Clock" part="HT75xx-1-SOT89">
+      <description>100mA Low Dropout Voltage Regulator, Fixed Output, SOT89</description>
+      <docs>https://www.holtek.com/documents/10179/116711/HT75xx-1v250.pdf</docs>
+      <footprints>
+        <fp>SOT?89*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">HT75xx-1-SOT89</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-89-3</field>
+        <field name="Datasheet">https://www.holtek.com/documents/10179/116711/HT75xx-1v250.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VIN" type="power_in"/>
+        <pin num="3" name="VOUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Digital_Clock" part="LSD150BAG-101">
+      <description>Green Single-digit Numeric Display with white white diffused lens, common anode</description>
+      <docs>https://www.tme.eu/Document/7494b3064f45c5a241c746ebacf617a6/LSD150BAG-101.pdf</docs>
+      <footprints>
+        <fp>SA15?11*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LSD150BAG-101</field>
+        <field name="Footprint">Display_7Segment:SA15-11xxx</field>
+        <field name="Datasheet">https://www.tme.eu/Document/7494b3064f45c5a241c746ebacf617a6/LSD150BAG-101.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CA" type="input"/>
+        <pin num="2" name="E" type="input"/>
+        <pin num="3" name="D" type="input"/>
+        <pin num="4" name="C" type="input"/>
+        <pin num="5" name="CA" type="input"/>
+        <pin num="6" name="B" type="input"/>
+        <pin num="7" name="A" type="input"/>
+        <pin num="8" name="DP" type="input"/>
+        <pin num="9" name="F" type="input"/>
+        <pin num="10" name="G" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Digital_Clock" part="Polyfuse">
+      <description>Resettable fuse, polymeric positive temperature coefficient</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*polyfuse*</fp>
+        <fp>*PTC*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Polyfuse</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Digital_Clock" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Digital_Clock" part="SMAJ5.0A">
+      <description>400W unidirectional Transient Voltage Suppressor, 5.0Vr, SMA(DO-214AC)</description>
+      <docs>https://www.littelfuse.com/media?resourcetype=datasheets&amp;itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&amp;filename=smaj-datasheet</docs>
+      <footprints>
+        <fp>D*SMA*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">SMAJ5.0A</field>
+        <field name="Footprint">Diode_SMD:D_SMA</field>
+        <field name="Datasheet">https://www.littelfuse.com/media?resourcetype=datasheets&amp;itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&amp;filename=smaj-datasheet</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A1" type="passive"/>
+        <pin num="2" name="A2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Digital_Clock" part="STM32L010F4Px">
+      <description>STMicroelectronics Arm Cortex-M0+ MCU, 16KB flash, 2KB RAM, 32 MHz, 1.8-3.6V, 16 GPIO, TSSOP20</description>
+      <docs>https://www.st.com/resource/en/datasheet/stm32l010f4.pdf</docs>
+      <footprints>
+        <fp>TSSOP*4.4x6.5mm*P0.65mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">STM32L010F4Px</field>
+        <field name="Footprint">Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm</field>
+        <field name="Datasheet">https://www.st.com/resource/en/datasheet/stm32l010f4.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PB9" type="bidirectional"/>
+        <pin num="2" name="PC14" type="bidirectional"/>
+        <pin num="3" name="PC15" type="bidirectional"/>
+        <pin num="4" name="NRST" type="input"/>
+        <pin num="5" name="VDDA" type="power_in"/>
+        <pin num="6" name="PA0" type="bidirectional"/>
+        <pin num="7" name="PA1" type="bidirectional"/>
+        <pin num="8" name="PA2" type="bidirectional"/>
+        <pin num="9" name="PA3" type="bidirectional"/>
+        <pin num="10" name="PA4" type="bidirectional"/>
+        <pin num="11" name="PA5" type="bidirectional"/>
+        <pin num="12" name="PA6" type="bidirectional"/>
+        <pin num="13" name="PA7" type="bidirectional"/>
+        <pin num="14" name="PB1" type="bidirectional"/>
+        <pin num="15" name="VSS" type="power_in"/>
+        <pin num="16" name="VDD" type="power_in"/>
+        <pin num="17" name="PA9" type="bidirectional"/>
+        <pin num="18" name="PA10" type="bidirectional"/>
+        <pin num="19" name="PA13" type="bidirectional"/>
+        <pin num="20" name="PA14" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Digital_Clock" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Digital_Clock" part="TLC59283DBQR">
+      <description>16-channel LED driver</description>
+      <docs>https://www.ti.com/lit/ds/symlink/tlc59283.pdf</docs>
+      <footprints>
+        <fp>TSSOP*4.4x7.8mm*P0.65mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TLC59283DBQR</field>
+        <field name="Footprint">Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tlc59283.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="SIN" type="input"/>
+        <pin num="3" name="SCLK" type="input"/>
+        <pin num="4" name="LAT" type="input"/>
+        <pin num="5" name="OUT0" type="output"/>
+        <pin num="6" name="OUT1" type="output"/>
+        <pin num="7" name="OUT2" type="output"/>
+        <pin num="8" name="OUT3" type="output"/>
+        <pin num="9" name="OUT4" type="output"/>
+        <pin num="10" name="OUT5" type="output"/>
+        <pin num="11" name="OUT6" type="output"/>
+        <pin num="12" name="OUT7" type="output"/>
+        <pin num="13" name="OUT8" type="output"/>
+        <pin num="14" name="OUT9" type="output"/>
+        <pin num="15" name="OUT10" type="output"/>
+        <pin num="16" name="OUT11" type="output"/>
+        <pin num="17" name="OUT12" type="output"/>
+        <pin num="18" name="OUT13" type="output"/>
+        <pin num="19" name="OUT14" type="output"/>
+        <pin num="20" name="OUT15" type="output"/>
+        <pin num="21" name="BLANK" type="input"/>
+        <pin num="22" name="SOUT" type="output"/>
+        <pin num="23" name="I-REF" type="passive"/>
+        <pin num="24" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Digital_Clock">
+      <uri>C:\Users\Richi\Documents\Projekty\Digital_Clock/Libs/Digital_Clock.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3.3V">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U2" pin="16" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U2" pin="5" pinfunction="VDDA" pintype="power_in"/>
+      <node ref="U3" pin="3" pinfunction="VOUT" pintype="power_out"/>
+      <node ref="U4" pin="24" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U5" pin="24" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="A1" pintype="passive"/>
+      <node ref="F1" pin="2" pintype="passive"/>
+      <node ref="U3" pin="2" pinfunction="VIN" pintype="power_in"/>
+      <node ref="U6" pin="1" pinfunction="CA" pintype="input"/>
+      <node ref="U6" pin="5" pinfunction="CA" pintype="input"/>
+      <node ref="U7" pin="1" pinfunction="CA" pintype="input"/>
+      <node ref="U7" pin="5" pinfunction="CA" pintype="input"/>
+      <node ref="U8" pin="1" pinfunction="CA" pintype="input"/>
+      <node ref="U8" pin="5" pinfunction="CA" pintype="input"/>
+      <node ref="U9" pin="1" pinfunction="CA" pintype="input"/>
+      <node ref="U9" pin="5" pinfunction="CA" pintype="input"/>
+    </net>
+    <net code="3" name="DS3231_SCL">
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="SCL" pintype="input"/>
+      <node ref="U2" pin="17" pinfunction="PA9" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="DS3231_SDA">
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="SDA" pintype="bidirectional"/>
+      <node ref="U2" pin="18" pinfunction="PA10" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="GNDD">
+      <node ref="BT1" pin="2" pinfunction="-" pintype="passive"/>
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="A2" pintype="passive"/>
+      <node ref="J1" pin="2" pintype="passive"/>
+      <node ref="J1" pin="3" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="GND" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="GND" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="GND" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="5" pinfunction="GND" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="GND" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="GND" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="GND" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="GND" pintype="passive"/>
+      <node ref="U2" pin="15" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U3" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U4" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="1" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="6" name="Net-(BT1-+)">
+      <node ref="BT1" pin="1" pinfunction="+" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="VBAT" pintype="power_in"/>
+    </net>
+    <net code="7" name="Net-(F1-Pad1)">
+      <node ref="F1" pin="1" pintype="passive"/>
+      <node ref="J1" pin="1" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(U2-NRST)">
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="NRST" pintype="input"/>
+    </net>
+    <net code="9" name="Net-(U2-PA0)">
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="SW3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="PA0" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="Net-(U2-PB9)">
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="PB9" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="Net-(U2-PC14)">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="PC14" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="Net-(U2-PC15)">
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="SW2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="PC15" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="Net-(U4-I-REF)">
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U4" pin="23" pinfunction="I-REF" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(U4-OUT0)">
+      <node ref="U4" pin="5" pinfunction="OUT0" pintype="output"/>
+      <node ref="U6" pin="7" pinfunction="A" pintype="input"/>
+    </net>
+    <net code="15" name="Net-(U4-OUT1)">
+      <node ref="U4" pin="6" pinfunction="OUT1" pintype="output"/>
+      <node ref="U6" pin="6" pinfunction="B" pintype="input"/>
+    </net>
+    <net code="16" name="Net-(U4-OUT2)">
+      <node ref="U4" pin="7" pinfunction="OUT2" pintype="output"/>
+      <node ref="U6" pin="4" pinfunction="C" pintype="input"/>
+    </net>
+    <net code="17" name="Net-(U4-OUT3)">
+      <node ref="U4" pin="8" pinfunction="OUT3" pintype="output"/>
+      <node ref="U6" pin="3" pinfunction="D" pintype="input"/>
+    </net>
+    <net code="18" name="Net-(U4-OUT4)">
+      <node ref="U4" pin="9" pinfunction="OUT4" pintype="output"/>
+      <node ref="U6" pin="2" pinfunction="E" pintype="input"/>
+    </net>
+    <net code="19" name="Net-(U4-OUT5)">
+      <node ref="U4" pin="10" pinfunction="OUT5" pintype="output"/>
+      <node ref="U6" pin="9" pinfunction="F" pintype="input"/>
+    </net>
+    <net code="20" name="Net-(U4-OUT6)">
+      <node ref="U4" pin="11" pinfunction="OUT6" pintype="output"/>
+      <node ref="U6" pin="10" pinfunction="G" pintype="input"/>
+    </net>
+    <net code="21" name="Net-(U4-OUT7)">
+      <node ref="U4" pin="12" pinfunction="OUT7" pintype="output"/>
+      <node ref="U6" pin="8" pinfunction="DP" pintype="input"/>
+    </net>
+    <net code="22" name="Net-(U4-OUT8)">
+      <node ref="U4" pin="13" pinfunction="OUT8" pintype="output"/>
+      <node ref="U7" pin="7" pinfunction="A" pintype="input"/>
+    </net>
+    <net code="23" name="Net-(U4-OUT9)">
+      <node ref="U4" pin="14" pinfunction="OUT9" pintype="output"/>
+      <node ref="U7" pin="6" pinfunction="B" pintype="input"/>
+    </net>
+    <net code="24" name="Net-(U4-OUT10)">
+      <node ref="U4" pin="15" pinfunction="OUT10" pintype="output"/>
+      <node ref="U7" pin="4" pinfunction="C" pintype="input"/>
+    </net>
+    <net code="25" name="Net-(U4-OUT11)">
+      <node ref="U4" pin="16" pinfunction="OUT11" pintype="output"/>
+      <node ref="U7" pin="3" pinfunction="D" pintype="input"/>
+    </net>
+    <net code="26" name="Net-(U4-OUT12)">
+      <node ref="U4" pin="17" pinfunction="OUT12" pintype="output"/>
+      <node ref="U7" pin="2" pinfunction="E" pintype="input"/>
+    </net>
+    <net code="27" name="Net-(U4-OUT13)">
+      <node ref="U4" pin="18" pinfunction="OUT13" pintype="output"/>
+      <node ref="U7" pin="9" pinfunction="F" pintype="input"/>
+    </net>
+    <net code="28" name="Net-(U4-OUT14)">
+      <node ref="U4" pin="19" pinfunction="OUT14" pintype="output"/>
+      <node ref="U7" pin="10" pinfunction="G" pintype="input"/>
+    </net>
+    <net code="29" name="Net-(U4-OUT15)">
+      <node ref="U4" pin="20" pinfunction="OUT15" pintype="output"/>
+      <node ref="U7" pin="8" pinfunction="DP" pintype="input"/>
+    </net>
+    <net code="30" name="Net-(U5-I-REF)">
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="U5" pin="23" pinfunction="I-REF" pintype="passive"/>
+    </net>
+    <net code="31" name="Net-(U5-OUT0)">
+      <node ref="U5" pin="5" pinfunction="OUT0" pintype="output"/>
+      <node ref="U8" pin="7" pinfunction="A" pintype="input"/>
+    </net>
+    <net code="32" name="Net-(U5-OUT1)">
+      <node ref="U5" pin="6" pinfunction="OUT1" pintype="output"/>
+      <node ref="U8" pin="6" pinfunction="B" pintype="input"/>
+    </net>
+    <net code="33" name="Net-(U5-OUT2)">
+      <node ref="U5" pin="7" pinfunction="OUT2" pintype="output"/>
+      <node ref="U8" pin="4" pinfunction="C" pintype="input"/>
+    </net>
+    <net code="34" name="Net-(U5-OUT3)">
+      <node ref="U5" pin="8" pinfunction="OUT3" pintype="output"/>
+      <node ref="U8" pin="3" pinfunction="D" pintype="input"/>
+    </net>
+    <net code="35" name="Net-(U5-OUT4)">
+      <node ref="U5" pin="9" pinfunction="OUT4" pintype="output"/>
+      <node ref="U8" pin="2" pinfunction="E" pintype="input"/>
+    </net>
+    <net code="36" name="Net-(U5-OUT5)">
+      <node ref="U5" pin="10" pinfunction="OUT5" pintype="output"/>
+      <node ref="U8" pin="9" pinfunction="F" pintype="input"/>
+    </net>
+    <net code="37" name="Net-(U5-OUT6)">
+      <node ref="U5" pin="11" pinfunction="OUT6" pintype="output"/>
+      <node ref="U8" pin="10" pinfunction="G" pintype="input"/>
+    </net>
+    <net code="38" name="Net-(U5-OUT7)">
+      <node ref="U5" pin="12" pinfunction="OUT7" pintype="output"/>
+      <node ref="U8" pin="8" pinfunction="DP" pintype="input"/>
+    </net>
+    <net code="39" name="Net-(U5-OUT8)">
+      <node ref="U5" pin="13" pinfunction="OUT8" pintype="output"/>
+      <node ref="U9" pin="7" pinfunction="A" pintype="input"/>
+    </net>
+    <net code="40" name="Net-(U5-OUT9)">
+      <node ref="U5" pin="14" pinfunction="OUT9" pintype="output"/>
+      <node ref="U9" pin="6" pinfunction="B" pintype="input"/>
+    </net>
+    <net code="41" name="Net-(U5-OUT10)">
+      <node ref="U5" pin="15" pinfunction="OUT10" pintype="output"/>
+      <node ref="U9" pin="4" pinfunction="C" pintype="input"/>
+    </net>
+    <net code="42" name="Net-(U5-OUT11)">
+      <node ref="U5" pin="16" pinfunction="OUT11" pintype="output"/>
+      <node ref="U9" pin="3" pinfunction="D" pintype="input"/>
+    </net>
+    <net code="43" name="Net-(U5-OUT12)">
+      <node ref="U5" pin="17" pinfunction="OUT12" pintype="output"/>
+      <node ref="U9" pin="2" pinfunction="E" pintype="input"/>
+    </net>
+    <net code="44" name="Net-(U5-OUT13)">
+      <node ref="U5" pin="18" pinfunction="OUT13" pintype="output"/>
+      <node ref="U9" pin="9" pinfunction="F" pintype="input"/>
+    </net>
+    <net code="45" name="Net-(U5-OUT14)">
+      <node ref="U5" pin="19" pinfunction="OUT14" pintype="output"/>
+      <node ref="U9" pin="10" pinfunction="G" pintype="input"/>
+    </net>
+    <net code="46" name="Net-(U5-OUT15)">
+      <node ref="U5" pin="20" pinfunction="OUT15" pintype="output"/>
+      <node ref="U9" pin="8" pinfunction="DP" pintype="input"/>
+    </net>
+    <net code="47" name="SWCLK">
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U2" pin="20" pinfunction="PA14" pintype="bidirectional"/>
+    </net>
+    <net code="48" name="SWDIO">
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U2" pin="19" pinfunction="PA13" pintype="bidirectional"/>
+    </net>
+    <net code="49" name="TLC59283-1_BLANK">
+      <node ref="U2" pin="8" pinfunction="PA2" pintype="bidirectional"/>
+      <node ref="U4" pin="21" pinfunction="BLANK" pintype="input"/>
+    </net>
+    <net code="50" name="TLC59283-1_LAT">
+      <node ref="U2" pin="10" pinfunction="PA4" pintype="bidirectional"/>
+      <node ref="U4" pin="4" pinfunction="LAT" pintype="input"/>
+    </net>
+    <net code="51" name="TLC59283-2_BLANK">
+      <node ref="U2" pin="7" pinfunction="PA1" pintype="bidirectional"/>
+      <node ref="U5" pin="21" pinfunction="BLANK" pintype="input"/>
+    </net>
+    <net code="52" name="TLC59283-2_LAT">
+      <node ref="U2" pin="9" pinfunction="PA3" pintype="bidirectional"/>
+      <node ref="U5" pin="4" pinfunction="LAT" pintype="input"/>
+    </net>
+    <net code="53" name="TLC59283_SCLK">
+      <node ref="U2" pin="11" pinfunction="PA5" pintype="bidirectional"/>
+      <node ref="U4" pin="3" pinfunction="SCLK" pintype="input"/>
+      <node ref="U5" pin="3" pinfunction="SCLK" pintype="input"/>
+    </net>
+    <net code="54" name="TLC59283_SIN">
+      <node ref="U2" pin="13" pinfunction="PA7" pintype="bidirectional"/>
+      <node ref="U4" pin="2" pinfunction="SIN" pintype="input"/>
+      <node ref="U5" pin="2" pinfunction="SIN" pintype="input"/>
+    </net>
+    <net code="55" name="TLC59283_SOUT">
+      <node ref="U2" pin="12" pinfunction="PA6" pintype="bidirectional"/>
+      <node ref="U4" pin="22" pinfunction="SOUT" pintype="output"/>
+      <node ref="U5" pin="22" pinfunction="SOUT" pintype="output"/>
+    </net>
+    <net code="56" name="unconnected-(U1-32KHZ-Pad1)">
+      <node ref="U1" pin="1" pinfunction="32KHZ" pintype="open_collector+no_connect"/>
+    </net>
+    <net code="57" name="unconnected-(U1-~{INT}{slash}SQW-Pad3)">
+      <node ref="U1" pin="3" pinfunction="~{INT}/SQW" pintype="open_collector+no_connect"/>
+    </net>
+    <net code="58" name="unconnected-(U1-~{RST}-Pad4)">
+      <node ref="U1" pin="4" pinfunction="~{RST}" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="59" name="unconnected-(U2-PB1-Pad14)">
+      <node ref="U2" pin="14" pinfunction="PB1" pintype="bidirectional+no_connect"/>
+    </net>
+  </nets>
+</export>
