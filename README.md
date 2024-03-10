@@ -2,7 +2,7 @@
 
 ![Digital Clock](Fotky/Digital_Clock.jpg "Digital Clock")
 
-Jednoduché digitální hodiny ze čtyř 7mi segmentových displayů.
+Jednoduché digitální hodiny ze čtyř 7mi segmentových displejů.
 
 #### Funkce tlačítek:
 1. tlačítko - zapne nastavování hodin
